@@ -125,6 +125,7 @@ span{
 
 .home-content p{
     font-size: 1.6rem;
+    margin-right: 2rem;
 }
 
 .social-media a{
@@ -545,6 +546,9 @@ span{
     .home-content{
         order: 2;
     }
+    .home-content p{
+        margin-right: 0rem;
+    }
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
@@ -581,13 +585,14 @@ span{
         width: 100vw;
         margin-top: 4rem;
     }
+    .contact form .input-box input{
+        width: 100%;
+    }
 }
 
 @media (max-width:450px) {
     html{
         font-size: 50%;
     }
-    .contact form .input-box input{
-        width: 100%;
-    }
+    
 }

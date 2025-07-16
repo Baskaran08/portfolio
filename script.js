@@ -61,7 +61,7 @@ ScrollReveal().reveal('.home-content p, .about-content, .backend-skills',{origin
 // typed js
 
 const typed=new Typed('.multiple-text',{
-    strings:['Frontend Developer','Backend Developer','Web Developer'],
+    strings:['Full Stack Developer', 'Frontend Developer','Backend Developer', 'Java Developer'],
     typeSpeed:70,
     backSpeed:70,
     backDelay:1000,
